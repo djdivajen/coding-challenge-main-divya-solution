@@ -1,4 +1,4 @@
-import React, {useState, useMemo} from 'react'
+import React, {useState} from 'react'
 // import * as PropTypes from 'prop-types'
 import {InferPropTypes} from '../../types/helper/react'
 import {Input} from '../../components/form-inputs'
@@ -71,7 +71,6 @@ const PageB: React.FC<PageBProps> = () => {
       <SubmitButton type="button" onClick={submitForm}>
         Submit
       </SubmitButton>
-      {/*{setFormData(state => ({...state, a: '1'}))}*/}
     </>
   )
 }
